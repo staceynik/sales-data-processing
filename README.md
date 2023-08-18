@@ -6,7 +6,7 @@ Project Structure
 The project directory is organized as follows:
 
 ```
-test_data_engineer/
+sales_data_processing/
 │
 ├── input/
 │   ├── sales.xlsx
