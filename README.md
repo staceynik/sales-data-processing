@@ -6,8 +6,6 @@ Project Structure
 The project directory is organized as follows:
 
 ```
-lua
-
 test_data_engineer/
 │
 ├── input/
@@ -39,11 +37,11 @@ Install the required Python packages using the following command:
 
 `pip install pandas openpyxl`
 
-Configuration:
+### Configuration:
 
 Edit the config.ini file to set up the paths to the input, output, and log directories.
 
-Running the Script:
+### Running the Script:
 
 Run the script using the following command:
 
@@ -54,7 +52,7 @@ Run the script using the following command:
 
 The script will read Excel files from the input folder, clean and process the data, and save individual JSON files in the output folder. An execution log will be created in the log folder.
 
-Viewing Results:
+### Viewing Results:
 
 The processed data will be saved as JSON files in the output folder. Each row of the input data corresponds to a JSON file with cleaned and enriched data.
 
